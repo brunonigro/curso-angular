@@ -17,6 +17,14 @@ export class DataBindingComponent implements OnInit {
 
   isMouseOver: boolean = false;
 
+  nome: string = 'bitcoin';
+
+  pessoa: any = {
+    nome: 'Bruno',
+    idade: 34
+  }
+
+
   // Methods
   getValor() {
     return 1;
