@@ -100,6 +100,7 @@
 </section>
 -->
 
+<!--
 <section class="two-way-binding">
 
   <article class="container">
@@ -116,10 +117,10 @@
         (ngModelChange)="nome = $event"
       />
 
-      <!-- Two Way Data Binding -->
+      // Two Way Data Binding
       <input type="text" [(ngModel)]="nome">
 
-      <!-- Two Way Data Binding Canônico -->
+      // Two Way Data Binding Canônico
       <input type="text" bindon-ngModel="nome">
 
       <p>Você digitou: {{ nome }}</p>
@@ -136,4 +137,13 @@
 
   </article>
 
+</section>
+-->
+
+<section class="input-output-properties">
+    <article class="container">
+        <h3>Input / Output Properties</h3>
+
+        <app-curso [nome]="nomeDoCurso"></app-curso>
+    </article>
 </section>
